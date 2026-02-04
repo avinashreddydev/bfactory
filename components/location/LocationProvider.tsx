@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import locations from "@/data/locations";
+import { locations } from "@/data/locations";
 import { calculateDistance } from "@/lib/distance";
 import { useCartStore } from "@/lib/store";
 import {

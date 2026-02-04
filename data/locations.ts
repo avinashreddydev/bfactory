@@ -9,6 +9,11 @@ const locations = [
         google_business_id: "https://share.google/NGawaXd62CNGtsTqZ",
         google_maps_url: "https://maps.app.goo.gl/cdbG9UEWbaKLUQ3z7"
     },
+];
+
+
+
+const alsoAvailableAt = [
     {
         name: "Bachupally",
         pincode: "500090",
@@ -30,6 +35,5 @@ const locations = [
         google_maps_url: "https://maps.app.goo.gl/mCnD7tCyj84N9sT39"
 
     },
-];
-
-export default locations;
+]
+export { locations, alsoAvailableAt };
