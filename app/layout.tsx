@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://biryanifactory.com'),
+  metadataBase: new URL('https://bfactory.app'),
   title: {
     default: "Biryani Factory - Authentic Hyderabadi Biryani",
     template: "%s | Biryani Factory",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://biryanifactory.com",
+    url: "https://bfactory.app",
     title: "Biryani Factory - Authentic Hyderabadi Biryani",
     description: "Order the best authentic Hyderabadi Dum Biryani online from Biryani Factory. Serving Tirupati, Bachupally, and Kondapur.",
     siteName: "Biryani Factory",

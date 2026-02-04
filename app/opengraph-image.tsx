@@ -23,20 +23,35 @@ export default async function Image() {
                     alignItems: 'center',
                     justifyContent: 'center',
                     color: 'white',
+                    fontFamily: 'sans-serif',
                 }}
             >
+                <img
+                    src="https://www.bfactory.app/logo.png"
+                    alt="Biryani Factory Logo"
+                    style={{
+                        width: 150,
+                        height: 150,
+                        marginBottom: 40,
+                        borderRadius: '50%', // optional: makes it circular if square
+                        objectFit: 'cover'
+                    }}
+                />
                 <div
                     style={{
-                        fontSize: 96,
+                        fontSize: 80,
                         fontWeight: 'bold',
                         marginBottom: 20,
+                        textAlign: 'center',
                         textShadow: '0 4px 8px rgba(0,0,0,0.2)',
+                        padding: '0 40px',
+                        lineHeight: 1.1,
                     }}
                 >
-                    Biryani Factory
+                    Hyderabad best biryani in Tirupati
                 </div>
-                <div style={{ fontSize: 40, opacity: 0.9 }}>
-                    Authentic Hyderabadi Flavors
+                <div style={{ fontSize: 32, opacity: 0.9, marginTop: 10 }}>
+                    bfactory.app
                 </div>
             </div>
         ),
